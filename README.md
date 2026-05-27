@@ -5,7 +5,13 @@ A minimal MCP server exposing a `search_jobs` tool with mock data.
 ## Setup
 
 ```bash
-pip install -r requirements.txt
+pip install .
+```
+
+Or with uv:
+
+```bash
+uv sync
 ```
 
 ## Run
